@@ -1,0 +1,5 @@
+<launch>
+    <node name="RRT" pkg="graph_planner" type="astar.py" output="screen">
+
+    </node>
+</launch>

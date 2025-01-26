@@ -1,0 +1,5 @@
+max_distance : 5
+map_resolution : 0.025
+dilation_kernel : 2
+
+

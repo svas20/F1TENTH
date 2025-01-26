@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: cse4568_pa4
+Description: Description of cse4568_pa4
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

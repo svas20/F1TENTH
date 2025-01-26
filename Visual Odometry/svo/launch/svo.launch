@@ -1,0 +1,9 @@
+<launch>
+    <node name="stereo_visual_odometry_node" pkg="svo" type="stereo_visual_odometry.py" output="screen">
+        
+    </node>
+	
+	<node name="camera_calibration" pkg="svo" type="calibrate.py" output="screen">
+	</node>
+
+</launch>

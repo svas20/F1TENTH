@@ -1,0 +1,5 @@
+<launch>
+    <rosparam file="$(find svo)/config/params.yaml" />
+	<node name="camera_calibration" pkg="svo" type="calibrate.py" output="screen">
+	</node>
+</launch>

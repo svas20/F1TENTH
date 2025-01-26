@@ -1,0 +1,7 @@
+<launch>
+    <rosparam file="$(find cse4568_pa4)/config/params.yaml"/>
+    <node>
+        <node name="RRT" pkg="cse4568_pa4" type="task2.py" output="screen">
+    </node>
+
+</launch>
